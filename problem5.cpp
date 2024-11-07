@@ -10,10 +10,10 @@ int main() {
     string lowerChars = "";
 
     for (char c : s) {
-        if (isupper(c)) {
+        if (c >= 'A' && c <= 'Z') {
             upperCount++;
             upperChars += c;
-        } else if (islower(c)) {
+        } else if (c >= 'a' && c <= 'z') {
             lowerCount++;
             lowerChars += c;
         }
