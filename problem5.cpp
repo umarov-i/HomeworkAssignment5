@@ -19,15 +19,15 @@ int main() {
         }
     }
 
-    cout << upperCount;
+    cout << upperCount << ' ';
     for (char c : upperChars) {
-        cout << " " << c;
+        cout << c << ' ';
     }
     cout << endl;
 
-    cout << lowerCount;
+    cout << lowerCount << ' ';
     for (char c : lowerChars) {
-        cout << " " << c;
+        cout << c << ' ';
     }
     cout << endl;
 
